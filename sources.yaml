@@ -1,0 +1,202 @@
+sources:
+  - name: 四川大学就业信息网
+    type: university
+    url: https://jy.scu.edu.cn/
+    enabled: true
+    priority: 100
+    max_jobs_per_run: 18
+    max_per_company: 3
+    industry_hint:
+    company_type_hint:
+
+  - name: 清华大学学生职业发展指导中心
+    type: university
+    url: https://career.tsinghua.edu.cn/
+    enabled: true
+    priority: 90
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 北京大学学生就业指导服务中心
+    type: university
+    url: https://scc.pku.edu.cn/
+    enabled: true
+    priority: 85
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 上海交通大学就业信息网
+    type: university
+    url: https://www.job.sjtu.edu.cn/
+    enabled: true
+    priority: 80
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 复旦大学学生职业发展教育服务中心
+    type: university
+    url: https://career.fudan.edu.cn/
+    enabled: true
+    priority: 75
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 浙江大学就业指导与服务中心
+    type: university
+    url: https://career.zju.edu.cn/
+    enabled: true
+    priority: 70
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 国家大学生就业服务平台
+    type: aggregator
+    url: https://www.ncss.cn/
+    enabled: true
+    priority: 60
+    max_jobs_per_run: 20
+    max_per_company: 3
+    industry_hint:
+    company_type_hint:
+
+  - name: 实习僧实习招聘
+    type: job_board
+    url: https://www.shixiseng.com/interns
+    enabled: true
+    priority: 58
+    max_jobs_per_run: 20
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 应届生求职网
+    type: job_board
+    url: https://www.yingjiesheng.com/
+    enabled: true
+    priority: 55
+    max_jobs_per_run: 20
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 牛客校招职位
+    type: job_board
+    url: https://www.nowcoder.com/jobs/school
+    enabled: true
+    priority: 52
+    max_jobs_per_run: 16
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 猎聘校园招聘
+    type: job_board
+    url: https://campus.liepin.com/
+    enabled: true
+    priority: 50
+    max_jobs_per_run: 16
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 拉勾招聘
+    type: job_board
+    url: https://www.lagou.com/wn/jobs
+    enabled: true
+    priority: 45
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: BOSS直聘实习
+    type: job_board
+    url: https://www.zhipin.com/
+    enabled: true
+    priority: 42
+    max_jobs_per_run: 12
+    max_per_company: 2
+    industry_hint:
+    company_type_hint:
+
+  - name: 腾讯校园招聘
+    type: official
+    url: https://join.qq.com/
+    enabled: false
+    priority: 10
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: 字节跳动校园招聘
+    type: official
+    url: https://jobs.bytedance.com/campus
+    enabled: false
+    priority: 10
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: 阿里巴巴校园招聘
+    type: official
+    url: https://talent.alibaba.com/campus
+    enabled: false
+    priority: 10
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: 美团校园招聘
+    type: official
+    url: https://zhaopin.meituan.com/web/campus
+    enabled: false
+    priority: 10
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: 京东校园招聘
+    type: official
+    url: https://campus.jd.com/
+    enabled: false
+    priority: 10
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: 百度校园招聘
+    type: official
+    url: https://talent.baidu.com/jobs/list?recruitType=CAMPUS
+    enabled: false
+    priority: 10
+    industry_hint: 人工智能
+    company_type_hint: 民营
+
+  - name: 华为校园招聘
+    type: official
+    url: https://career.huawei.com/reccampportal/portal5/index.html
+    enabled: false
+    priority: 10
+    industry_hint: 通信
+    company_type_hint: 民营
+
+  - name: 网易校园招聘
+    type: official
+    url: https://campus.163.com/
+    enabled: false
+    priority: 10
+    industry_hint: 计算机
+    company_type_hint: 民营
+
+  - name: 国家电网招聘平台
+    type: official
+    url: https://zhaopin.sgcc.com.cn/
+    enabled: false
+    priority: 10
+    industry_hint: 电气
+    company_type_hint: 央企

@@ -1,0 +1,11 @@
+{
+  "active_profile": "default",
+  "profiles": [
+    {
+      "name": "default",
+      "api_key": "YOUR_API_KEY_HERE",
+      "base_url": "https://api.deepseek.com",
+      "model": "deepseek-chat"
+    }
+  ]
+}
